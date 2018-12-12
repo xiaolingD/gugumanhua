@@ -1,0 +1,39 @@
+@import './coment.scss';
+.search{
+    
+
+.am-search-value{
+    width: rem(300);
+    height: rem(38);
+    border: 1px solid #ccc;
+    margin-left: rem(20);
+    border-radius: rem(10);
+    padding-left: rem(30);
+}
+.am-search-synthetic-ph-placeholder{
+    position: absolute;
+    left: rem(-999);
+}
+.am-search-cancel{
+     position: absolute;
+    left: rem(-999);
+}
+p{
+    font-size: rem(16);
+    position: absolute;
+    right: rem(13);
+    top:rem(20);
+}
+.hot{
+    font-size: rem(16);
+    h3{
+        margin-top: rem(20);
+    }
+    span{
+        display: inline-block;
+        margin: rem(10);
+       
+    }
+}
+
+}

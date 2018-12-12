@@ -1,0 +1,104 @@
+@import './coment.scss';
+
+.head {
+    height: rem(40);
+    line-height: rem(40);
+    border-bottom: 1px solid #ccc;
+        display: flex;
+        p{
+            font-size: rem(18);
+            margin: 0 auto;
+        }
+        .icon{
+            font-size: rem(18);
+            .user{
+                margin-right:rem(20) ;
+            }
+            .search{
+                 margin-right:rem(20) ;
+            }
+            
+        }
+}
+
+
+.book{
+    border-top: 1px solid #999;
+   
+    img{
+        width:rem(135);
+        height: rem(173);
+        float: left;
+         margin-top: rem(20);
+        margin-left: rem(20);
+    }
+    .explain{
+         margin-top: rem(20);
+          margin-left: rem(9);
+        width:rem(200);
+        float: left;
+        h4{
+            height: rem(38);
+            font-size: rem(18);
+            
+        }
+        p{
+            font-size: rem(12);
+        }
+        .descrip{
+            margin-top: rem(20);
+            span{
+                height: rem(35);
+                overflow: hidden;
+                width: rem(200);
+                 word-break: break-all;
+                 text-overflow: ellipsis;
+                 display: -webkit-box; /** 对象作为伸缩盒子模型显示 **/
+                -webkit-box-orient: vertical; /** 设置或检索伸缩盒对象的子元素的排列方式 **/
+                -webkit-line-clamp: 2; /** 显示的行数 **/
+            }
+        }
+        .am-button{ 
+            display: block;
+            width: rem(100);
+            height: rem(35);
+            font-size: rem(12);
+            text-align: center;
+            line-height: rem(35);
+            border-radius: 5%;
+            color: #fff;
+            background: #ffb600;
+            margin-left: rem(20);
+            margin-top: rem(20);
+        }
+       
+    }
+    .am-tabs-default-bar-tab{
+        float: left;
+        font-size: rem(18);
+        height: rem(38);
+        background: orange;
+    }
+    .am-tabs{
+        margin-top: rem(250);
+        border: 1px solid black;
+    }
+    .am-grid-item{
+        width: rem(65);
+        height:rem(33);
+        margin-left: rem(5);
+        margin-right: rem(5);
+        
+    }
+    .viewfoot{
+        display: flex;
+        font-size: rem(12);
+        color: #888;
+    }
+    .more{
+        margin: 0 auto;
+        width: rem(120);
+        background: none;
+        color: #999;
+    }
+}

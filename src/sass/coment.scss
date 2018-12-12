@@ -1,0 +1,7 @@
+@function rem($value) {
+    @return $value/37.5 + rem
+}
+*{
+    padding: 0;
+    margin: 0;
+}
